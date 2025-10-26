@@ -2,7 +2,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { assets } from '@/assets/assets'
+import { assets } from '../../assets/assets'
 
 export default function Resume() {
   const [activeResume, setActiveResume] = useState('resume1')
