@@ -10,7 +10,7 @@ const Work = () => {
       <h2 className='text-center text-5xl font-Ovo'>my portfolio</h2>
 
       <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-        i encourage
+        some projects i've worked on in the past
       </p>
 
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 my-10'>
@@ -22,7 +22,7 @@ const Work = () => {
             style={{ backgroundImage: `url(${project.bgImage})` }}
           >
             <div
-              className='bg-white w-8/12 rounded-md absolute 
+              className='bg-white w-10/12 rounded-md absolute 
                 bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex flex-col items-center
                 text-center duration-500 group-hover:bottom-7'
             >
@@ -35,14 +35,15 @@ const Work = () => {
         ))}
       </div>
 
-      <a
-        href=""
+        <a
+        href="/projects"
         className='w-max flex items-center justify-center gap-2
         text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto
         my-20 hover:bg-blue-50 duration-500'
-      >
+        >
         Show more <Image src={assets.right_arrow_bold} alt='Right arrow' className='w-4' />
-      </a>
+        </a>
+
     </div>
   )
 }

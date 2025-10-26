@@ -94,18 +94,18 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'I2C Music Box',
+        description: 'C++, I2C',
         bgImage: '/work-1.png',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'CV ASL Translator',
+        description: 'Python, OpenCV, Tensorflow',
         bgImage: '/work-2.png',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'Bio. Security System',
+        description: 'Arduino, AutoCAD',
         bgImage: '/work-3.png',
     },
     {
