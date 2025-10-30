@@ -9,15 +9,15 @@ export default function Resume() {
 
   const getResumeSrc = () => {
     return activeResume === 'resume1'
-      ? '/sample-resume.pdf'
-      : '/sample-resume.pdf'
+      ? '/Ian_Guiwo_Resume_2025.pdf'
+      : '/Ian_Guiwo_Resume_2025_full.pdf'
   }
 
   return (
-    <div className='w-full min-h-screen px-[12%] py-10 relative'>
+    <div className="w-full min-h-screen px-[12%] pt-20 sm:pt-10 relative">
 
       {/* Logo */}
-      <div className="absolute top-10 left-[12%]">
+      <div className="absolute top-6 left-1/2 transform -translate-x-1/2 sm:left-[12%] sm:transform-none">
         <Link href="/">
             <Image 
                 src={assets.signature} 

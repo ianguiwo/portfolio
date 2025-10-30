@@ -12,16 +12,17 @@ const projectList = [
 
 export default function Projects() {
   return (
-    <div className="w-full min-h-screen px-[12%] py-10 relative">
+    <div className="w-full min-h-screen px-[12%] pt-20 sm:pt-10 relative">
 
-      {/* Logo */}
-      <Link href="/">
-        <Image 
-          src={assets.signature} 
-          alt="Ian's logo" 
-          className="w-28 sm:w-32 cursor-pointer absolute top-10 left-[12%]" 
-        />
-      </Link>
+      <div className="w-full flex justify-center sm:justify-start mb-6">
+        <Link href="/">
+          <Image 
+            src={assets.signature} 
+            alt="Ian's logo" 
+            className="w-28 sm:w-32 cursor-pointer" 
+          />
+        </Link>
+      </div>
 
       <h1 className="text-4xl font-Ovo text-center mb-10">My Projects</h1>
 
