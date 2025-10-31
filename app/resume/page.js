@@ -10,7 +10,7 @@ export default function Resume() {
   const getResumeSrc = () => {
     return activeResume === 'resume1'
       ? '/Ian-Guiwo-Resume-2025.pdf'
-      : '/Ian_Guiwo_Resume_2025_full.pdf'
+      : '/Ian-Guiwo-Resume-2025-full.pdf'
   }
 
   return (

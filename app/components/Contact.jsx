@@ -30,9 +30,9 @@ const Contact = () => {
 
   return (
     <div id='contact' className='w-full px-[12%] py-10 scroll-mt-20'>
-      <h4 className='text-center mb-2 text-lg font-Ovo'>Connect with me</h4>
-      <h2 className='text-center text-5xl font-Ovo'>Get in touch</h2>
-      <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>lmk wtw</p>
+      <h4 className='text-center mb-2 text-lg font-Ovo'>connect with me</h4>
+      <h2 className='text-center text-5xl font-Ovo'>get in touch</h2>
+      <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>feel free to reach out for anything!</p>
 
       <form onSubmit={onSubmit} className='max-w-2xl mx-auto'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mt-10 mb-8'>

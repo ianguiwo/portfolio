@@ -40,7 +40,7 @@ const Header = () => {
         transition={{ duration: 0.6, delay: 0.6 }}
         className='max-w-2xl mx-auto font-Ovo'
       >
-        particularly interested in embedded systems, electronics, low-level work. <br />
+        particularly interested in embedded systems/electronics and electrical work. <br />
         always open to expand and try new things!
       </motion.p>
 
