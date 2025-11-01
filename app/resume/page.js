@@ -39,7 +39,7 @@ export default function Resume() {
               : 'bg-white text-black'
           }`}
         >
-          Resume 1
+          Resume (single)
         </button>
         <button
           onClick={() => setActiveResume('resume2')}
@@ -49,7 +49,7 @@ export default function Resume() {
               : 'bg-white text-black'
           }`}
         >
-          Resume 2
+          Resume (full)
         </button>
       </div>
 
@@ -70,7 +70,7 @@ export default function Resume() {
           download
           className='px-6 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition'
         >
-          Download {activeResume === 'resume1' ? 'Resume 1' : 'Resume 2'}
+          Download {activeResume === 'resume1' ? 'Resume (single)' : 'Resume (full)'}
         </a>
       </div>
 

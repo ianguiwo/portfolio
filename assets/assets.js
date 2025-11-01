@@ -96,22 +96,17 @@ export const workData = [
     {
         title: 'I2C Music Box',
         description: 'C++, I2C',
-        bgImage: '/work-1.png',
+        bgImage: '/buzzers.jpg',
     },
     {
         title: 'CV ASL Translator',
         description: 'Python, OpenCV, Tensorflow',
-        bgImage: '/work-2.png',
+        bgImage: '/image1.png',
     },
     {
         title: 'Bio. Security System',
         description: 'Arduino, AutoCAD',
-        bgImage: '/work-3.png',
-    },
-    {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
+        bgImage: '/fingerprint-scanner.jpg',
     },
 ]
 

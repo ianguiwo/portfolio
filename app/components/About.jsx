@@ -30,7 +30,7 @@ const About = () => {
                 </p>
                 <p className="mt-6">
                     <strong>Side note:</strong> I would encourage you to take a look at my{' '}
-                    <span className="underline">project portfolio and full, multi-page resume</span>{' '}
+                    <span className="underline">project portfolio and full resume</span>{' '}
                     using the navigation bar, as there's only so much that can fit in one page!
                 </p>
         </div>
